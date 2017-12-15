@@ -16,6 +16,9 @@
 *.launch
 .settings/
 *.sublime-workspace
+ng5.iml
+.gitignore
+package-lock.json
 
 # IDE - VSCode
 .vscode/*
