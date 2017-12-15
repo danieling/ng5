@@ -1,5 +1,10 @@
 ng new ng5 --style=scss --routing
 cd ng5
 ng serve --open
+git rm --cached .gitignore
+git add howto.txt
+git commit -m "project setup"
 
 
+ng generate component home
+ng g c about
