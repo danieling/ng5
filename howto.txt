@@ -19,3 +19,6 @@ ng g c about
 <p>{{ var }}</p>
 
 npm install @angular/animations@latest --save
+ng g service services/data
+
+
