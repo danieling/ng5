@@ -20,5 +20,13 @@ ng g c about
 
 npm install @angular/animations@latest --save
 ng g service services/data
+ // DEPLOYMENT en github pages
+ng build    // crea folder dist el file principal pesa bastante 3megas min
+
+ng build --prod   // optimiza y el file es mucho mas liviano
+
+npm install -g angular-cli-ghpages
+
+
 
 
