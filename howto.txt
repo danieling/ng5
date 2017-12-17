@@ -26,9 +26,14 @@ ng build    // crea folder dist el file principal pesa bastante 3megas min
 
 ng build --prod   // optimiza y el file es mucho mas liviano
 
+ng build --prod --base-href="https://danieling.github.io/ng5/"  //
+
 npm install -g angular-cli-ghpages
 
 git push -u origin master
+
+angular-cli-ghpages
+
 
 
 
