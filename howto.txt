@@ -5,6 +5,7 @@ git rm --cached .gitignore
 git add howto.txt
 git commit -m "project setup"
 
+git remote add origin git@github.com/danieling/ng5.git  // liga el proyecto local con proyecto vacio de github
 
 ng generate component home
 ng g c about
@@ -26,6 +27,9 @@ ng build    // crea folder dist el file principal pesa bastante 3megas min
 ng build --prod   // optimiza y el file es mucho mas liviano
 
 npm install -g angular-cli-ghpages
+
+git push -u origin master
+
 
 
 
