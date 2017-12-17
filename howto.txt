@@ -8,3 +8,14 @@ git commit -m "project setup"
 
 ng generate component home
 ng g c about
+
+
+// one way databinding from component to template
+ // interpolation elem = {{ var }}
+ // property binding [elem] = "var"
+
+// Two way databinding
+<inputText [(ngModel)]="var">
+<p>{{ var }}</p>
+
+
