@@ -18,4 +18,4 @@ ng g c about
 <inputText [(ngModel)]="var">
 <p>{{ var }}</p>
 
-
+npm install @angular/animations@latest --save
